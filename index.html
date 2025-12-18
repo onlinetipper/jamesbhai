@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Bhai</title>
+
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '605805139260782');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=605805139260782&ev=PageView&noscript=1"
+    /></noscript>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: url('https://raw.githubusercontent.com/onlinetipper/diamondtossline/c3d70b99c4bdfab98d190ffa4ee32d830a2825d7/daimond.jpg') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .bg-overlay {
+            position: absolute;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.75);
+            z-index: 1;
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+            width: 90%;
+            max-width: 400px;
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            border-radius: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+        }
+
+        .title {
+            font-size: 2.5rem;
+            color: #ffcc00;
+            font-weight: 900;
+            text-shadow: 0 0 20px rgba(255, 204, 0, 0.5);
+        }
+
+        .tagline {
+            font-size: 0.85rem;
+            margin: 10px 0;
+            color: #ccc;
+        }
+
+        /* Timer ko centre mein karne ke liye */
+        .timer-text { 
+            display: block;
+            margin: 20px 0; 
+            color: #ff4d4d; 
+            font-weight: bold; 
+            font-size: 1.2rem; /* Centre mein hone ki wajah se size thoda bada kiya hai */
+            text-transform: uppercase;
+            text-shadow: 0 0 10px rgba(255, 77, 77, 0.4);
+        }
+
+        .big-counter {
+            font-size: 5rem;
+            font-weight: bold;
+            color: #fff;
+            line-height: 1;
+        }
+
+        .sub-brand {
+            color: #00ff7f;
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+
+        .stats {
+            background: rgba(0,0,0,0.4);
+            padding: 12px;
+            border-radius: 12px;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+
+        .stats p { margin: 6px 0; font-size: 0.9rem; }
+        .stats strong { color: #00ff7f; }
+
+        .cta-btn {
+            display: block;
+            background: #24a1de;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            font-weight: bold;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            box-shadow: 0 8px 20px rgba(36, 161, 222, 0.4);
+            animation: pulse-btn 1.5s infinite;
+        }
+
+        @keyframes pulse-btn {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        .ad-setup-link {
+            display: inline-block;
+            margin-top: 15px;
+            color: rgba(255, 255, 255, 0.5);
+            text-decoration: none;
+            font-size: 0.8rem;
+            transition: 0.3s;
+        }
+
+        .ad-setup-link:hover {
+            color: #00ff7f;
+        }
+
+        .footer-text { margin-top: 15px; font-size: 0.7rem; opacity: 0.5; }
+    </style>
+</head>
+<body>
+
+    <div class="bg-overlay"></div>
+
+    <div class="container">
+        <h3 class="title">James Bhai</h3>
+        <p class="tagline">Best Cricket Expert → Tips, Calls & Live Analysis</p>
+
+        <p class="timer-text">FREE JOINING ENDS IN <span id="timer">60s</span></p>
+
+        <div class="big-counter" id="big-counter">60</div>
+        <div class="sub-brand">Join Fast...</div>
+
+        <div class="stats">
+            <p>✔ <strong>81/87 MATCH PASSED</strong> 🏆</p>
+            <p>✔ <strong>Oldest CRICKET Tipper Since 2009</strong> 🏆</p>
+            <p>✔ <strong>40/42 BBL MATCHES PASSED</strong> 🏆</p>
+        </div>
+
+        <a href="https://t.me/+3qFJvDLUjvBlYmQ1" class="cta-btn">
+            JOIN NOW FOR FREE ✈️
+        </a>
+
+        <a href="https://t.me/AdDukan1" class="ad-setup-link">
+            Ad Setup- Ad Dukan
+        </a>
+
+        <p class="footer-text">99% Right Accuracy ke sath best result</p>
+    </div>
+
+    <script>
+        let timeLeft = 60;
+        const bigCounter = document.getElementById('big-counter');
+        const smallTimer = document.getElementById('timer');
+        
+        setInterval(() => {
+            if (timeLeft > 0) {
+                timeLeft--;
+                if (bigCounter) bigCounter.innerText = timeLeft;
+                if (smallTimer) smallTimer.innerText = timeLeft + "s";
+            } else {
+                if (smallTimer) smallTimer.innerText = "OPEN";
+                if (bigCounter) bigCounter.innerText = "0";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
